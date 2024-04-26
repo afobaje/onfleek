@@ -38,7 +38,7 @@ export function Logo() {
         <path fill="#fff" d="M52 30c11.046 0 20 8.955 20 20s-8.954 20-20 20s-20-8.955-20-20s8.954-20 20-20z" />
         <path fill="#E64C3C" fillRule="evenodd" d="M52 40c5.523 0 10 4.477 10 10c0 5.522-4.477 10-10 10s-10-4.478-10-10c0-5.523 4.477-10 10-10z" clipRule="evenodd" />
         <use href="#flatUiGoal0" fillRule="evenodd" clipRule="evenodd" />
-        <path fill="#F29C1F" fill-rule="evenodd" d="M89 100V87L76 74v13l13 13z" clipRule="evenodd" />
+        <path fill="#F29C1F" fillRule="evenodd" d="M89 100V87L76 74v13l13 13z" clipRule="evenodd" />
         <use href="#flatUiGoal0" fillRule="evenodd" clipRule="evenodd" />
         <path d="M50.439 48.439L15.121 83.757a50.513 50.513 0 0 0 2.097 2.145L52.56 50.56a1.5 1.5 0 1 0-2.121-2.121z" opacity=".15" />
         <path fill="#E57E25" d="M90.363 89.896c-.384 0-.769-.146-1.062-.439L50.939 51.061a1.501 1.501 0 0 1 2.123-2.121l38.363 38.395a1.501 1.501 0 0 1-1.062 2.561z" />
@@ -63,7 +63,7 @@ export function Wallet() {
 export function Message() {
     return <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
         <g fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="1.5">
-            <path stroke-linejoin="round" d="M21.25 7.506v6.607a3.963 3.963 0 0 1-3.964 3.965h-2.643l-2.18 2.18a.636.636 0 0 1-.925 0l-2.18-2.18H6.713a3.964 3.964 0 0 1-3.964-3.965V7.506a3.964 3.964 0 0 1 3.964-3.964h10.572a3.964 3.964 0 0 1 3.964 3.964" />
+            <path strokeLinejoin="round" d="M21.25 7.506v6.607a3.963 3.963 0 0 1-3.964 3.965h-2.643l-2.18 2.18a.636.636 0 0 1-.925 0l-2.18-2.18H6.713a3.964 3.964 0 0 1-3.964-3.965V7.506a3.964 3.964 0 0 1 3.964-3.964h10.572a3.964 3.964 0 0 1 3.964 3.964" />
             <path strokeMiterlimit="10" d="M8.459 10.87h7.082" />
         </g>
     </svg>
@@ -84,7 +84,7 @@ export function Person() {
 
 export function Video() {
     return <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-        <g fill="none" stroke="currentColor" stroke-width="2">
+        <g fill="none" stroke="currentColor" strokeWidth="2">
             <path strokeLinecap="round" strokeLinejoin="round" d="M16.211 11.106L9.737 7.868A1.2 1.2 0 0 0 8 8.942v6.116a1.2 1.2 0 0 0 1.737 1.074l6.474-3.238a1 1 0 0 0 0-1.788" />
             <circle cx="12" cy="12" r="9" />
         </g>

@@ -29,10 +29,9 @@ export default function Home() {
             </label>
           </div>
         </div>
+{/* end of mobile screen */}
+
         <div className="flex justify-between gap-10">
-
-
-
           <Board show={mobileToggle} />
           <Transactions show={mobileToggle} />
         </div>

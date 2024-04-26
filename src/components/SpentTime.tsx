@@ -1,10 +1,11 @@
 'use client'
 import { ApexOptions } from 'apexcharts';
+import dynamic from 'next/dynamic';
 import React from 'react'
 import ReactApexChart from 'react-apexcharts';
 
 
-
+const DynamicLineChart=dynamic(()=>import("react-apexcharts"),{ssr:false})
 
 
 const series = [
@@ -88,11 +89,12 @@ export default function SpentTime() {
     <div className='flex md:w-[48%] shadow-xl p-5 rounded-xl flex-col'>
       <h2 className='font-semibold'>Spent Time</h2>
       <div>
-        <ReactApexChart
+        <DynamicLineChart
         options={options} 
         series={series} 
         type='line' 
         height={200}
+        width={"100%"}
          />
       </div>
     </div>
