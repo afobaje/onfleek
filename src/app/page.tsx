@@ -18,12 +18,12 @@ export default function Home() {
 
         {/* mobile screen only */}
         <div className="togglewrapper flex md:hidden items-center mb-10 justify-center">
-          <div className="toggle flex rounded-3xl shadow-2xl">
-            <label htmlFor="firstview" className='p-2 w-14 h-12 inline-grid place-content-center cursor-pointer rounded-3xl'>
+          <div className="toggle flex rounded-2xl shadow-2xl">
+            <label htmlFor="firstview" className='p-2 w-14 h-12 inline-grid place-content-center cursor-pointer rounded-2xl'>
               <BarChart/>
               <input type="radio" onChange={(e)=>setMobileToggle(e.target.value)} name='toggleView' className='hidden' value='firstview' id="firstview" defaultChecked />
             </label>
-            <label htmlFor="secondview" className='p-2 w-14 h-12 rounded-3xl cursor-pointer inline-grid place-content-center'>
+            <label htmlFor="secondview" className='p-2 w-14 h-12 rounded-2xl cursor-pointer inline-grid place-content-center'>
               <Card/>
               <input value='secondview' onChange={(e)=>setMobileToggle(e.target.value)} className='hidden' name='toggleView' type="radio" id="secondview" />
             </label>
